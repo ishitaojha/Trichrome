@@ -1,0 +1,116 @@
+body {
+    background-color: #a4f5f5;
+}
+
+.heading {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+nav{
+  text-align:center;
+}
+li a{
+  text-decoration: none;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:white ;
+  font-size: 35px;
+  padding: 1.5em;
+}
+li a:hover {
+  background-color: #ad3d11;
+}
+
+
+.navbar {
+    background-color: #7acbeb !important;
+}
+
+.nav-link {
+    margin-left: 20%;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-collapse {
+    margin-left: 50%;
+}
+
+.intro {
+    font-family: 'Outfit', sans-serif;
+    margin-left: 8%;
+    margin-right: 8%;
+    font-size: 1.5rem;
+}
+
+.i1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+    width: 35%;
+}
+
+.row {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.card {
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ffe1e1 !important;
+}
+
+.card:hover {
+    background-color: #ffffff !important;
+}
+
+.col-sm-6 {
+    padding-top: 2%;
+}
+
+.card-title {
+    text-align: center;
+    font-weight: bold;
+}
+
+.card-img-top {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+    color: white;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: bold;
+    
+}
+
+@media (max-width: 600px) {
+    .intro {
+        font-size: 20px;
+    }
+    .heading {
+        width: 80%;
+    }
+    .i1 {
+        width: 80%;
+    }
+}
+
+@media (max-width: 990px) {
+    .navbar-collapse {
+        margin: auto;
+    }
+}
+* font-family: 'Merriweather', serif;
+font-family: 'Lobster', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Outfit', sans-serif;
+font-family: 'Roboto', sans-serif; */
